@@ -1,0 +1,38 @@
+.banner{
+    height: 70vh;
+    position: relative;
+    background: url('https://i.pinimg.com/originals/4b/69/bd/4b69bd3f27bd37a4c0c39c23c7b8410a.jpg') center center no-repeat;
+    background-size:cover;
+}
+.banner__info{
+    background-color: black;
+    color: white;
+    padding: 25vh 50px 50px 40px;
+    width:300px;
+}
+.banner__info > button{
+    background-color: rgb(233, 90, 109);
+    color: white;
+    /* get rid of upper-case */
+    text-transform: inherit; 
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > h5{
+    margin-top: 10px;
+}
+.banner__info > button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(253, 55, 55);
+}
+.banner__search > Button{
+    background-color: #fff;
+    font-weight: 900;
+    text-transform: inherit;
+    color: rgb(243, 93, 118);
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
