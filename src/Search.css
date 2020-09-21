@@ -1,0 +1,43 @@
+.search {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+  width: 100vw;
+}
+.search > h2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 559px;
+  padding: 10px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 380px;
+}
+
+.search > input {
+  width: 539px;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  height: 30px;
+  top: 450px;
+  border: none;
+  outline: none;
+}
+
+.search > button{
+    position: absolute;
+    left: 0;
+    top: 530px;
+    text-transform: inherit;
+    background-color: rgb(253, 129, 129);
+    color: white;
+    width: 580px;
+
+}
+
+.search > button:hover{
+    background-color: rgb(247, 72, 72)
+}
